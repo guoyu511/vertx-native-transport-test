@@ -9,4 +9,4 @@ java -jar target/vertx-native-transport-test-1.0-SNAPSHOT-jar-with-dependencies.
 ```
 
 We hope that the two process can listen on the same port, with same ip address.
-Unfortunately, it will cause an error []**Address already in use**], which means the SO_REUSEPORT is not set correctly.
+Unfortunately, it will cause an error [**Address already in use**], which means the SO_REUSEPORT is not set correctly.
